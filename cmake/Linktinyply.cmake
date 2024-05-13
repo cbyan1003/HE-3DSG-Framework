@@ -1,0 +1,6 @@
+IF(NOT TARGET libtinyply)
+    MESSAGE(FATAL_ERROR "Try to link libtinyply but it was not found")
+ELSE()
+    TARGET_LINK_LIBRARIES(${targetname} InstanceFusion libtinyply)
+    TARGET_COMPILE_DEFINITIONS(${targetname} InstanceFusion COMPILE_WITH_TINYPLY)
+ENDIF()

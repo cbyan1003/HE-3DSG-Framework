@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: flann
+Version: 1.8.4
+Summary: Fast Library for Approximate Nearest Neighbors
+Home-page: http://www.cs.ubc.ca/~mariusm/flann/
+Author: Marius Muja
+Author-email: mariusm@cs.ubc.ca
+License: BSD
